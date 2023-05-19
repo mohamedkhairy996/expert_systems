@@ -16,7 +16,7 @@ from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import accuracy_score
 
 # load dataset
-url = 'covid_19_clean_complete.csv'
+url = 'covidDataset.csv'
 df = pd.read_csv(url)
 
 # drop unnecessary columns
